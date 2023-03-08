@@ -17,7 +17,7 @@ mkdir -p /usr/share/sddm/themes
 
 apt purge snapd -y
 apt-mark hold snapd
-curl -L https://nixos.org/nix/install | sh
+#curl -L https://nixos.org/nix/install | sh
 apt install nala -y
 nala update
 nala upgrade -y
